@@ -1,0 +1,49 @@
+footer {
+    height: 40vh;
+    background-color: rgba(0, 0, 0, 0.795);
+
+    .infos {
+        .info {
+            display: flex;
+            width: 20%;
+
+            i {
+                font-size: 1.5rem;
+                padding-top: 0.2rem;
+            }
+            div {
+                padding-left: 1rem;
+                p{
+                    margin: 0;
+                }
+            }
+
+
+            &:last-child {
+                div {
+                    .icons {
+                        display: flex;
+                        gap: 1rem;
+                        padding: 0;
+
+                        i {
+                            font-size: 1rem;
+                            border: 1px solid white;
+                            border-radius: 50%;
+                            padding: 0.5rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .copyright {
+        border-top: 1px solid rgba(129, 129, 129, 0.774);
+        p {
+            padding-top: 1rem;
+            width: 20vw;
+            text-align: center;
+        }
+    }
+}

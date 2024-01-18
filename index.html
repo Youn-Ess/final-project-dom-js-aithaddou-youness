@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/css/app.css">
+</head>
+
+<body class="">
+
+
+
+    <!-- ^ header start -->
+    <header class="header ">
+        <nav class="navebar bg-secondary navbar fixed-top py-lg-0 navbar-expand-lg ">
+            <div class="container py-3">
+                <a class="navbar-brand logo" href="#">Lions Resto<span>.</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="div1 collapse navbar-collapse" id="navbarText">
+                    <ul class="ul1 navbar-nav ms-auto me-auto gap-lg-2 d-lg-flex align-items-lg-center">
+
+                        <li class="li1 dropdown ">
+                            <a class="links nav-link  py-lg-3 text-dark" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="links nav-link  text-light-gray g-3" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                About
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="links nav-link  text-light-gray py-lg-3" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Menu
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="links nav-link text-light-gray py-lg-3" href="./public/pages/contact.html">
+                                Events
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="links nav-link text-light-gray py-lg-3" href="./public/pages/contact.html">
+                                Chefs
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="links nav-link text-light-gray py-lg-3" href="./public/pages/contact.html">
+                                Gallery
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="links nav-link text-light-gray py-lg-3" href="./public/pages/contact.html">
+                                Drop Down
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item text-dark-gray py-lg-2" href="#">option1</a></li>
+                                <li><a class="dropdown-item text-dark-gray py-lg-2" href="#">option2</a></li>
+                                <li><a class="dropdown-item text-dark-gray py-lg-2" href="#">option3</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="links nav-link text-light-gray py-lg-3" href="./public/pages/contact.html">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                    <span class="navbar-text ">
+                        <button class="button1 btn bg-danger btn-primary bg-l-blue border-0 rounded-5" type="submit">
+                            connexion</button>
+                    </span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Offcanvas navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav> -->
+    <!-- ^ header end -->
+
+    <!-- & hearo section start -->
+    <section class="hearo-section bg-body-tertiary py-5">
+        <div class="div1 d-lg-flex flex-lg-row align-items-lg-center justify-content-lg-around ">
+            <div class="right-area">
+                <h1>Enjoy Your Healthy Delicious Food</h1>
+                <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit voluptatem sequi ex aspernatur.</P>
+                <div class="buttons d-flex align-items-center gap-3">
+                    <button class="button1 btn  rounded-5"
+                        type="submit">
+                        Contact Us</button>
+                    <div class="button2 d-flex align-items-center gap-1">
+                        <i class="fa-solid fa-play play-icone"></i>
+                        <p class="m-0">Watch Video</p>
+                    </div>
+                </div>
+            </div>
+            <img src="./public/img/menu/menu-item-1.png" alt="">
+        </div>
+    </section>
+    <!-- & hearo section end -->
+
+    <!-- todo section 1 start -->
+    <section class="section1 py-5">
+        <div class="text-container text-center">
+            <p class="specialP">ABOUT US</p>
+            <h1>Learn More <span class="text-danger">About Us</span></h1>
+        </div>
+
+        <div class="lower-area d-flex flex-lg-row justify-content-lg-evenly pt-4 flex-column align-items-center">
+            <div class="left-area d-flex align-items-end justify-content-center">
+                <div class="number-area mb-5 d-flex flex-column align-items-center justify-content-center">
+                    <h3>Book a Table</h3>
+                    <h2>+212 689853478</h2>
+                </div>
+            </div>
+
+            <div class="right-area">
+                <div class="text">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus corrupti quae placeat
+                        magnam
+                        fuga, commodi ex quod quam? Nemo, atque.</p>
+                    <div class="d-flex align-items-start">
+                        <i class="fa-solid fa-check"></i>
+                        <p class="align-middle">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                    <div class="d-flex">
+                        <i class="fa-solid fa-check"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                    <div class="d-flex">
+                        <i class="fa-solid fa-check"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut perferendis, eos veritatis
+                            consectetur nemo blanditiis autem voluptatum atque deserunt omnis.
+                        </p>
+                    </div>
+
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe facilis quis eaque modi
+                        perspiciatis
+                        rerum similique esse? Soluta illum ratione odio, sequi iusto dignissimos explicabo.</p>
+                </div>
+
+                <div class="img d-flex align-items-center justify-content-center">
+                    <div><i class="fa-solid fa-play play-icone"></i></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- todo section 1 end -->
+
+    <!-- ~ section 2 start -->
+    <section class="section2 bg-light-gray px-lg-5 px-3">
+        <div class="cards-container d-flex flex-lg-row align-items-lg-center flex-column gap-4">
+            <div class="first-card d-flex flex-column justify-content-between align-items-center p-4">
+                <div class="text-area d-flex flex-column justify-content-between">
+                    <h1 class="text-white">Why Choose Yummy?</h1>
+                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum qui cumque,
+                        fuga recusandae, veritatis
+                        dolorem ut animi vel beatae aspernatur voluptates cupiditate ab mollitia nulla sunt, cum dicta?
+                        Eaque, iure.Lorem dolor sit amet consectetur adipisicing elit. Harum qui cumque, fuga
+                        recusandae, veritatis
+                    </p>
+                </div>
+                <button class="button1 btn bg-danger btn-primary bg-l-blue border-0 rounded-5 px-4">Learn More</button>
+            </div>
+            <div class="cards-left">
+                <i class="fa-solid fa-clipboard-check"></i>
+                <h4>Lorem ipsum dolor sit.</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem a labore excepturi esse sit eos.</p>
+            </div>
+            <div class="cards-left">
+                <i class="fa-solid fa-clipboard-check"></i>
+                <h4>Lorem ipsum dolor sit.</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem a labore excepturi esse sit eos.</p>
+            </div>
+            <div class="cards-left">
+                <i class="fa-solid fa-clipboard-check"></i>
+                <h4>Lorem ipsum dolor sit.</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem a labore excepturi esse sit eos.</p>
+            </div>
+        </div>
+    </section>
+    <!-- ~ section 2 end -->
+
+    <!-- TODO background Section start -->
+    <section class="background-section">
+        <div class="background-img">
+            <div class="div1 d-lg-flex text-white justify-content-lg-center align-items-lg-center ">
+                <div>
+                    <h2>232</h2>
+                    <p>Clients</p>
+                </div>
+                <div>
+                    <h2>521</h2>
+                    <p>Projects</p>
+                </div>
+                <div>
+                    <h2>1453</h2>
+                    <p>Hours</p>
+                </div>
+                <div>
+                    <h2>32</h2>
+                    <p>Workers</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- TODO background Section end -->
+    <!-- * section 3 start -->
+    <!-- <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
+                type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Home</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
+                type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Profile</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane"
+                type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Contact</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane"
+                type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false"
+                disabled>Disabled</button>
+        </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+            tabindex="0">...</div>
+        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">...
+        </div>
+        <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...
+        </div>
+        <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">
+            ...</div>
+    </div> -->
+
+    <section class="section3">
+        <div class="text-container text-center py-4">
+            <p class="specialP">OUR MENU</p>
+            <h1>Check Out <span class="text-danger">Yummy Meny</span></h1>
+        </div>
+
+        <div class="meals-area">
+            <div class="links d-lg-flex justify-content-lg-center gap-lg-2 py-4">
+                <button class="button-link">Starters</button>
+                <button class="button-link">Breakfast</button>
+                <button class="button-link">Lunch</button>
+                <button class="button-link">Diner</button>
+            </div>
+
+            <!-- ! breakfast -->
+            <div class="breakfast pb-5">
+                <div class="px-5">
+                    <div class="text-center py-5">
+                        <p class="specialP mb-0">MENU</p>
+                        <h2><span class="text-danger">Breakfast</span></h2>
+                    </div>
+                    <div class="content">
+                        <div class="menu">
+                            <img src="./public/img/menu/menu-item-1.png" alt="">
+                            <div class="name-price">
+                                <h3>Magnam Tist</h3>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <h2 class="text-danger">$5.95</h2>
+                            </div>
+                        </div>
+                        <div class="menu">
+                            <img src="./public/img/menu/menu-item-1.png" alt="">
+                            <div class="name-price">
+                                <h3>Magnam Tist</h3>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <h2 class="text-danger">$5.95</h2>
+                            </div>
+                        </div>
+                        <div class="menu">
+                            <img src="./public/img/menu/menu-item-1.png" alt="">
+                            <div class="name-price">
+                                <h3>Magnam Tist</h3>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <h2 class="text-danger">$5.95</h2>
+                            </div>
+                        </div>
+                        <div class="menu">
+                            <img src="./public/img/menu/menu-item-1.png" alt="">
+
+                            <div class="name-price">
+                                <h3>Magnam Tist</h3>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <h2 class="text-danger">$5.95</h2>
+                            </div>
+                        </div>
+                        <div class="menu">
+                            <img src="./public/img/menu/menu-item-1.png" alt="">
+
+                            <div class="name-price">
+                                <h3>Magnam Tist</h3>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <h2 class="text-danger">$5.95</h2>
+                            </div>
+                        </div>
+                        <div class="menu">
+                            <img src="./public/img/menu/menu-item-1.png" alt="">
+
+                            <div class="name-price">
+                                <h3>Magnam Tist</h3>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <h2 class="text-danger">$5.95</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- ! lunch -->
+            <div class="lunch d-none pb-5">
+                <div class="px-5">
+                    <div class="text-center py-5">
+                        <p class="specialP mb-0">MENU</p>
+                        <h2><span class="text-danger">Lunch</span></h2>
+                    </div>
+                    <div class="content">
+                        <div class="menu">
+                            <img src="./public/img/menu/menu-item-1.png" alt="">
+                            <div class="name-price">
+                                <h3>Magnam Tist</h3>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <h2 class="text-danger">$5.95</h2>
+                            </div>
+                        </div>
+                        <div class="menu">
+                            <img src="./public/img/menu/menu-item-1.png" alt="">
+                            <div class="name-price">
+                                <h3>Magnam Tist</h3>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <h2 class="text-danger">$5.95</h2>
+                            </div>
+                        </div>
+                        <div class="menu">
+                            <img src="./public/img/menu/menu-item-1.png" alt="">
+                            <div class="name-price">
+                                <h3>Magnam Tist</h3>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <h2 class="text-danger">$5.95</h2>
+                            </div>
+                        </div>
+                        <div class="menu">
+                            <img src="./public/img/menu/menu-item-1.png" alt="">
+
+                            <div class="name-price">
+                                <h3>Magnam Tist</h3>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <h2 class="text-danger">$5.95</h2>
+                            </div>
+                        </div>
+                        <div class="menu">
+                            <img src="./public/img/menu/menu-item-1.png" alt="">
+
+                            <div class="name-price">
+                                <h3>Magnam Tist</h3>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <h2 class="text-danger">$5.95</h2>
+                            </div>
+                        </div>
+                        <div class="menu">
+                            <img src="./public/img/menu/menu-item-1.png" alt="">
+
+                            <div class="name-price">
+                                <h3>Magnam Tist</h3>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <h2 class="text-danger">$5.95</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <!-- ! diner -->
+            <div class="diner d-none pb-5">
+                <div class="px-5">
+                    <div class="text-center py-5">
+                        <p class="specialP mb-0">MENU</p>
+                        <h2><span class="text-danger">Diner</span></h2>
+                    </div>
+                    <div class="content">
+                        <div class="menu">
+                            <img src="./public/img/menu/menu-item-1.png" alt="">
+                            <div class="name-price">
+                                <h3>Magnam Tist</h3>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <h2 class="text-danger">$5.95</h2>
+                            </div>
+                        </div>
+                        <div class="menu">
+                            <img src="./public/img/menu/menu-item-1.png" alt="">
+                            <div class="name-price">
+                                <h3>Magnam Tist</h3>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <h2 class="text-danger">$5.95</h2>
+                            </div>
+                        </div>
+                        <div class="menu">
+                            <img src="./public/img/menu/menu-item-1.png" alt="">
+                            <div class="name-price">
+                                <h3>Magnam Tist</h3>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <h2 class="text-danger">$5.95</h2>
+                            </div>
+                        </div>
+                        <div class="menu">
+                            <img src="./public/img/menu/menu-item-1.png" alt="">
+
+                            <div class="name-price">
+                                <h3>Magnam Tist</h3>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <h2 class="text-danger">$5.95</h2>
+                            </div>
+                        </div>
+                        <div class="menu">
+                            <img src="./public/img/menu/menu-item-1.png" alt="">
+
+                            <div class="name-price">
+                                <h3>Magnam Tist</h3>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <h2 class="text-danger">$5.95</h2>
+                            </div>
+                        </div>
+                        <div class="menu">
+                            <img src="./public/img/menu/menu-item-1.png" alt="">
+
+                            <div class="name-price">
+                                <h3>Magnam Tist</h3>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <h2 class="text-danger">$5.95</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+
+    </section>
+
+
+    <!-- * section 3 end -->
+
+    <!-- ! section 4 start -->
+
+    <section class="section4 bg-light-gray py-5">
+
+        <div class="text-container text-center py-4">
+            <p class="specialP">CHEFS</p>
+            <h1>Our <span class="text-danger">Proffesional</span> Chefs</h1>
+        </div>
+
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                    class="active bg-danger myButton" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2" class="bg-danger myButton"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3" class="bg-danger myButton"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4" class="bg-danger myButton"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-lg-flex align-items-lg-center justify-content-lg-center p-5">
+                        <div class="content ">
+                            <div class="text-area">
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi eius earum nisi quos
+                                    ipsam dolor libero fugit in quam minus corporis, suscipit, impedit numquam molestiae
+                                    harum placeat blanditiis et doloremque?</p>
+                                <h4>Sara</h4>
+                                <p>Designer</p>
+
+                                <div class="d-flex text-warning">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <img width="100" src="./public/img/testimonials/testimonials-1.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="carousel-item">
+                    <div class="d-lg-flex align-items-lg-center justify-content-lg-center p-5">
+                        <div class="content ">
+                            <div class="text-area">
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi eius earum nisi quos
+                                    ipsam dolor libero fugit in quam minus corporis, suscipit, impedit numquam molestiae
+                                    harum placeat blanditiis et doloremque?</p>
+                                <h4>Sara</h4>
+                                <p>Designer</p>
+
+                                <div class="d-flex text-warning">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <img width="100" src="./public/img/testimonials/testimonials-2.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="carousel-item">
+                    <div class="d-lg-flex align-items-lg-center justify-content-lg-center p-5">
+                        <div class="content ">
+                            <div class="text-area">
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi eius earum nisi quos
+                                    ipsam dolor libero fugit in quam minus corporis, suscipit, impedit numquam molestiae
+                                    harum placeat blanditiis et doloremque?</p>
+                                <h4>Sara</h4>
+                                <p>Designer</p>
+
+                                <div class="d-flex text-warning">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <img width="100" src="./public/img/testimonials/testimonials-3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-lg-flex align-items-lg-center justify-content-lg-center p-5">
+                        <div class="content ">
+                            <div class="text-area">
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi eius earum nisi quos
+                                    ipsam dolor libero fugit in quam minus corporis, suscipit, impedit numquam molestiae
+                                    harum placeat blanditiis et doloremque?</p>
+                                <h4>Sara</h4>
+                                <p>Designer</p>
+
+                                <div class="d-flex text-warning">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <img width="100" src="./public/img/testimonials/testimonials-4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button> -->
+        </div>
+    </section>
+    <!-- ! section 4 end -->
+
+    <!-- ? section 5 start -->
+    <section class="section5 bg-white"></section>
+    <!-- ? section 5 end -->
+
+    <!-- ^ sedtion 6 start -->
+    <section class="section6 p-5 bg-light-gray">
+        <div class="text-container text-center py-4">
+            <p class="specialP">CHEFS</p>
+            <h1>Our <span class="text-danger">Proffesional</span> Chefs</h1>
+        </div>
+
+        <div class="cards-container d-lg-flex justify-content-lg-evenly">
+
+                <div class="card-item">
+                    <div class="img1 imgs bg-primary d-flex align-items-end">
+                        <div class="style-over-img"></div>
+                        <div class="icons">
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
+                    </div>
+                    <div class="text-area text-center px-lg-2 py-lg-1 bg-white ">
+                        <h4>Walter White</h4>
+                        <p>Master Chef</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium atque aperiam nulla
+                            ipsam
+                            eaque blanditiis rem quas natus quis eos?
+                        </p>
+                    </div>
+                </div>
+
+            <div class="card-item">
+                <div class="img2 imgs bg-primary d-flex align-items-end">
+                    <div class="style-over-img"></div>
+                    <div class="icons">
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </div>
+                <div class="text-area text-center px-lg-2 py-lg-1 bg-white">
+                    <h4>Walter White</h4>
+                    <p>Master Chef</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium atque aperiam nulla ipsam
+                        eaque blanditiis rem quas natus quis eos?
+                    </p>
+                </div>
+            </div>
+
+
+
+            <div class="card-item">
+                <div class="img3 imgs bg-primary d-flex align-items-end">
+                    <div class="style-over-img"></div>
+                    <div class="icons">
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </div>
+                <div class="text-area text-center px-lg-2 py-lg-1 bg-white">
+                    <h4>Walter White</h4>
+                    <p>Master Chef</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium atque aperiam nulla ipsam
+                        eaque blanditiis rem quas natus quis eos?
+                    </p>
+                </div>
+
+
+
+            </div>
+
+
+
+        </div>
+    </section>
+    <!-- ^ sedtion 6 end -->
+
+
+    <!-- ~ section 7 start -->
+    <section class="section7 p-5 d-lg-flex flex-lg-column align-items-lg-center">
+        <div class="text-container text-center py-4">
+            <p class="specialP">BOOK A TABLE</p>
+            <h1>Book <span class="text-danger">Your Stay</span> Width Us</h1>
+        </div>
+        <div class="lower-area bg-light-gray d-lg-flex">
+            <div class="img">
+
+            </div>
+            <div class="inputs-area">
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+                <input type="text" placeholder="Your Phone">
+                <input type="text" placeholder="Date">
+                <input type="text" placeholder="Time">
+                <input type="number" placeholder="# of people">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                <div class="d-lg-flex justify-content-lg-center">
+                    <button class="button1 btn bg-danger btn-primary bg-l-blue border-0 rounded-5">Book a Table</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ~ section 7 end -->
+
+    <!-- * section 8 start -->
+    <!-- * section 8 end -->
+
+
+    <!-- ^ section 9 start -->
+    <section class="section9 p-5">
+        <div class="text-container text-center py-4">
+            <p class="specialP">CONTACT</p>
+            <h1>Need Help? <span class="text-danger">Contact Us</span></h1>
+        </div>
+        <div class="contact-area">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.058266302467!2d-7.536426625608057!3d33.60379264127886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7cdb2f812837f%3A0xbbcfc74fbc11b2d9!2sLionsGeek!5e0!3m2!1sen!2sma!4v1705525108207!5m2!1sen!2sma"
+                width="1200" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+
+            <div class="info bg-light-gray">
+                <i class="fa-regular fa-envelope"></i>
+                <div>
+                    <h4>Our Address</h4>
+                    <p>address asdlkfjasldk alsdkfjlk 123</p>
+                </div>
+            </div>
+            <div class="info bg-light-gray">
+                <i class="fa-regular fa-envelope"></i>
+                <div>
+                    <h4>Our Address</h4>
+                    <p>address asdlkfjasldk alsdkfjlk 123</p>
+                </div>
+            </div>
+            <div class="info bg-light-gray">
+                <i class="fa-regular fa-envelope"></i>
+                <div>
+                    <h4>Our Address</h4>
+                    <p>address asdlkfjasldk alsdkfjlk 123</p>
+                </div>
+            </div>
+            <div class="info bg-light-gray">
+                <i class="fa-regular fa-envelope"></i>
+                <div>
+                    <h4>Our Address</h4>
+                    <p>address asdlkfjasldk alsdkfjlk 123</p>
+                </div>
+            </div>
+
+            <div class="inputs-area">
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+                <input class="third" type="text" placeholder="Subject">
+                <textarea class="" name="" id="" cols="30" rows="5" placeholder="Message"></textarea>
+                <div class="d-lg-flex justify-content-lg-center">
+                    <button class="button1 btn bg-danger btn-primary bg-l-blue border-0 rounded-5">Book a Table</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- ^ section 9 end -->
+
+    <!-- ! footer start -->
+    <footer class="text-white">
+        <div class="infos d-lg-flex justify-content-lg-around p-lg-5 ">
+            <div class="info">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                    <h5>Address</h5>
+                    <p>!108 Adam Street New York, NY 535022-US</p>
+                </div>
+            </div>
+            <div class="info">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                    <h5>Reservations</h5>
+                    <p><span>Phone:</span>+212 687654567</p>
+                    <p><span>Phone:</span>info@example.com</p>
+                </div>
+            </div>
+            <div class="info">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                    <h5>Opening Hours</h5>
+                    <p><span>Mon-Sat: 11AM</span>-23PM</p>
+                    <p>Sunday: Closed</p>
+                </div>
+            </div>
+            <div class="info">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                    <h5>Follow Us</h5>
+                    <div class="icons">
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright d-lg-flex justify-content-lg-center w-100">
+            <p>&copy; Copyright <span>Yummy.</span> All Rights Reserved Designed by <span>BootstrapMade</span></p>
+        </div>
+    </footer>
+    <!-- ! footer end -->
+
+
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="./public/js/app.js"></script>
+</body>
+
+</html>

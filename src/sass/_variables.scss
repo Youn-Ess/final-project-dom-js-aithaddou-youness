@@ -1,0 +1,21 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+
+
+$l-blue: #1a76d1;
+$v-l-blue: #edf2ff;
+$dark-gray: #2c2d3f;
+$light-gray: #e7e7e7;
+$wwhite: #f9f9f9;
+
+
+$custom-colors:(
+"l-blue":$l-blue,
+"v-l-blue" :$v-l-blue,
+"dark-gray": $dark-gray,
+"light-gray" :$light-gray,
+"wwhite" : $wwhite,
+);
+
+$theme-colors: map-merge($custom-colors, $theme-colors );
+

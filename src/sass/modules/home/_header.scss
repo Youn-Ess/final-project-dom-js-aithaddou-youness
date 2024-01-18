@@ -1,0 +1,144 @@
+.header {
+    .navebar {
+        .logo {
+            font-size: 30px;
+            font-weight: bold;
+            span {
+                color: red;
+            }
+        }
+
+        .div1 {
+            .ul1 {
+                li {
+                    .links {
+                        font-family: 'R-medium';
+                        position: relative;
+
+                        &:hover {
+                            color: red !important;
+                        }
+
+                        &::after {
+                            content: '';
+                            position: absolute;
+                            bottom: 7%;
+                            left: 0;
+                            height: 2px;
+                            width: 0;
+                            transition: 0.3s;
+                            background: red;
+                        }
+
+                        &:hover::after {
+                            width: 100%;
+                        }
+                    }
+
+                    .dropdown-menu {
+                        li {
+                            a {
+                                position: relative;
+
+                                &:hover {
+                                    color: red !important;
+                                }
+
+                                &::after {
+                                    content: '';
+                                    position: absolute;
+                                    bottom: -18%;
+                                    left: 0;
+                                    height: 4px;
+                                    width: 0;
+                                    transition: 0.3s;
+                                    background: red;
+                                }
+
+                                &:hover::after {
+                                    width: 100%;
+                                }
+
+                            }
+                        }
+                    }
+                }
+
+            }
+
+            span {
+                button {
+                    position: relative;
+                    display: inline-block;
+                    color: white;
+                    background-image: linear-gradient($dark-gray, $dark-gray);
+                    background-position: 50% 50%;
+                    background-repeat: no-repeat;
+                    background-size: 0% 100%;
+                    transition: background-size .5s, color .5s;
+                }
+
+                button:hover {
+                    background-size: 100% 100%;
+                    color: #fff;
+                }
+            }
+        }
+
+
+    }
+
+
+}
+
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 15%;
+}
+
+@media (max-width:430px) {
+    .header {
+        .navebar {
+            .container {
+                .div1 {
+                    .ul1 {
+                        li {
+                            .links {
+                                &::after {
+                                    content: '';
+                                    position: absolute;
+                                    bottom: -18%;
+                                    left: 0;
+                                    height: 4px;
+                                    width: 0;
+                                    transition: 0.3s;
+                                    background: $l-blue;
+                                }
+
+                                &:hover::after {
+                                    width: 15%;
+                                }
+
+                            }
+
+                            .dropdown-menu {
+                                position: relative;
+                                margin-top: 2vh;
+                                width: 5vw;
+
+                            }
+                        }
+                    }
+
+                    span {
+                        button {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
