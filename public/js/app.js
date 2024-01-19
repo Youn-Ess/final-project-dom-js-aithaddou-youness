@@ -3,7 +3,7 @@ let links = document.querySelectorAll(`.button-link`)
 const breakfast = document.querySelector(`.breakfast`)
 const lunch = document.querySelector(`.lunch`)
 const diner = document.querySelector(`.diner`)
-
+const starters = document.querySelector(`.starters`)
 
 links.forEach(link => {
     link.addEventListener(`click`, (e) => {
@@ -20,6 +20,11 @@ links.forEach(link => {
             breakfast.classList.add(`d-none`)
             lunch.classList.add(`d-none`)
             diner.classList.remove(`d-none`)
+        }else if(e.target.textContent == `Starters`){
+            breakfast.classList.add(`d-none`)
+            lunch.classList.add(`d-none`)
+            diner.classList.add(`d-none`)
+            starters.classList.remove(`d-none`)
         }
     })
 });
