@@ -12381,6 +12381,9 @@ textarea.form-control-lg {
   color: whitesmoke;
   padding: 0.5rem 2rem;
 }
+.hearo-section .div1 .right-area .buttons .button2 {
+  cursor: pointer;
+}
 .hearo-section .div1 .right-area .buttons .button2 i {
   font-size: 1rem;
   color: rgb(206, 0, 0);
@@ -12394,6 +12397,30 @@ textarea.form-control-lg {
 }
 .hearo-section .div1 img {
   width: 35vw;
+}
+.hearo-section .video1 {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.411);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+}
+.hearo-section .video1 i {
+  position: fixed;
+  right: 5rem;
+  top: 5rem;
+  font-size: 4rem;
+  color: rgb(77, 77, 77);
+}
+.hearo-section .video1 i:hover {
+  color: black;
 }
 
 .section1 .lower-area .left-area {
@@ -13399,6 +13426,9 @@ textarea.form-control-lg {
     height: 7vh;
     width: 40vw;
   }
+}
+.header .navebar {
+  z-index: 2;
 }
 .header .navebar .logo {
   font-size: 30px;

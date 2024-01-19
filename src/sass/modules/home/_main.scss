@@ -22,7 +22,6 @@
 .hearo-section {
     margin-top: 6vw;
     height: 87vh;
-
     .div1 {
         .right-area {
             width: 35vw;
@@ -40,6 +39,7 @@
                 }
 
                 .button2 {
+                    cursor: pointer;
                     i {
                         font-size: 1rem;
                         color: rgb(206, 0, 0);
@@ -58,6 +58,31 @@
 
         img {
             width: 35vw;
+        }
+    }
+
+    .video1{
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.411);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        z-index: 10;
+        i{
+            position: fixed;
+            right: 5rem;
+            top: 5rem;
+            font-size: 4rem;
+            color: rgb(77, 77, 77);
+            &:hover{
+                color: black;
+            }
         }
     }
 }

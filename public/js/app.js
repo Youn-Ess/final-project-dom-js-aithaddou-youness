@@ -20,7 +20,7 @@ links.forEach(link => {
             breakfast.classList.add(`d-none`)
             lunch.classList.add(`d-none`)
             diner.classList.remove(`d-none`)
-        }else if(e.target.textContent == `Starters`){
+        } else if (e.target.textContent == `Starters`) {
             breakfast.classList.add(`d-none`)
             lunch.classList.add(`d-none`)
             diner.classList.add(`d-none`)
@@ -48,4 +48,20 @@ signUpLogInButtons.forEach(Button => {
         }
     })
 });
+
+
+let video1button = document.querySelector(`.button2`)
+let video1sectino = document.querySelector(`.video1`)
+
+video1button.addEventListener(`click`, () => {
+    video1sectino.classList.remove(`d-none`)
+    let xButton = document.querySelector(`.xmark1`)
+    xButton.addEventListener(`click`, () => {
+        video1sectino.classList.add(`d-none`)
+        let srcVideo1 = document.querySelector(`.video1 iframe`)
+        srcVideo1.src = `chihaja`
+    })
+})
+
+
 
