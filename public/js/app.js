@@ -1,3 +1,4 @@
+
 let links = document.querySelectorAll(`.button-link`)
 const breakfast = document.querySelector(`.breakfast`)
 const lunch = document.querySelector(`.lunch`)
@@ -22,3 +23,24 @@ links.forEach(link => {
         }
     })
 });
+
+
+
+let signUpPage = document.querySelector(`.signup-page`)
+let logInPage = document.querySelector(`.login-page`)
+
+
+let signUpLogInButtons = document.querySelectorAll(`.header-modal .buttons`)
+console.log(signUpLogInButtons)
+signUpLogInButtons.forEach(Button => {
+    Button.addEventListener(`click`, (e) => {
+        if (e.target.textContent == `sign up`) {
+            signUpPage.classList.remove(`d-none`)
+            logInPage.classList.add(`d-none`)
+        } else if (e.target.textContent == `login`) {
+            signUpPage.classList.add(`d-none`)
+            logInPage.classList.remove(`d-none`)
+        }
+    })
+});
+

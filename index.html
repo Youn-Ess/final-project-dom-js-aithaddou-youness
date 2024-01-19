@@ -14,51 +14,56 @@
 
     <!-- ^ header start -->
     <header class="header ">
-        <nav class="navebar bg-secondary navbar fixed-top py-lg-0 navbar-expand-lg ">
+        <nav class="navebar bg-white navbar fixed-top py-lg-0 navbar-expand-lg ">
             <div class="container py-3">
                 <a class="navbar-brand logo" href="#">Lions Resto<span>.</span></a>
+
+                
+                <button type="button" class="button1 btn bg-danger btn-primary bg-l-blue border-0 rounded-5 d-lg-none d-block"
+                    data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    connexion
+                </button>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
                     aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
+
                 <div class="div1 collapse navbar-collapse" id="navbarText">
                     <ul class="ul1 navbar-nav ms-auto me-auto gap-lg-2 d-lg-flex align-items-lg-center">
 
                         <li class="li1 dropdown ">
-                            <a class="links nav-link  py-lg-3 text-dark" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="links nav-link  py-lg-3 text-dark" href="#home">
                                 Home
                             </a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="links nav-link  text-light-gray g-3" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="links nav-link  text-light-gray g-3" href="#about">
                                 About
                             </a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="links nav-link  text-light-gray py-lg-3" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="links nav-link  text-light-gray py-lg-3" href="#menu">
                                 Menu
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="links nav-link text-light-gray py-lg-3" href="./public/pages/contact.html">
+                            <a class="links nav-link text-light-gray py-lg-3" href="#events">
                                 Events
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="links nav-link text-light-gray py-lg-3" href="./public/pages/contact.html">
+                            <a class="links nav-link text-light-gray py-lg-3" href="#chefs">
                                 Chefs
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="links nav-link text-light-gray py-lg-3" href="./public/pages/contact.html">
+                            <a class="links nav-link text-light-gray py-lg-3" href="#gellery">
                                 Gallery
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="links nav-link text-light-gray py-lg-3" href="./public/pages/contact.html">
+                            <a class="links nav-link text-light-gray py-lg-3" href="#">
                                 Drop Down
                             </a>
                             <ul class="dropdown-menu">
@@ -69,18 +74,75 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="links nav-link text-light-gray py-lg-3" href="./public/pages/contact.html">
+                            <a class="links nav-link text-light-gray py-lg-3" href="#contact">
                                 Contact
                             </a>
                         </li>
                     </ul>
-                    <span class="navbar-text ">
-                        <button class="button1 btn bg-danger btn-primary bg-l-blue border-0 rounded-5" type="submit">
-                            connexion</button>
-                    </span>
+
+
+                    <!-- <button class="button1 btn bg-danger btn-primary bg-l-blue border-0 rounded-5" type="submit">
+                            connexion</button> -->
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="button1 btn bg-danger btn-primary bg-l-blue border-0 rounded-5 d-lg-block d-none"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        connexion
+                    </button>
+
+                    <!-- Modal -->
+
                 </div>
+
+
+
+
+
             </div>
         </nav>
+        <div class="modal myModal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content content">
+                    <div class="modal-header header-modal">
+                        <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> -->
+                        <button class="buttons signup-button">sign up</button>
+                        <button class="buttons login-button">login</button>
+                        <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                    </div>
+
+
+                    <div
+                        class="modal-body d-none page login-page d-flex flex-column align-items-center justify-content-between gap-5">
+                        <h2>Login</h2>
+                        <div class="inputs d-flex flex-column gap-3">
+                            <input placeholder="email" type="email">
+                            <input placeholder="password" type="password">
+                        </div>
+                    </div>
+
+
+                    <div
+                        class="modal-body page signup-page d-flex flex-column align-items-center justify-content-between gap-5">
+                        <h2>Sing Up</h2>
+                        <div class="inputs d-flex flex-column gap-3">
+                            <input type="text" placeholder="fist name">
+                            <input type="text" placeholder="last name">
+                            <input type="number" placeholder="phone number">
+                            <input placeholder="email" type="email">
+                            <input placeholder="password" type="password">
+                        </div>
+                    </div>
+
+
+
+                    <div class="modal-footer footer-buttons d-flex justify-content-center gap-5">
+                        <button type="button" class="" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
 
 
@@ -131,7 +193,7 @@
     <!-- ^ header end -->
 
     <!-- & hearo section start -->
-    <section class="hearo-section bg-body-tertiary py-5">
+    <section class="hearo-section bg-body-tertiary py-5" id="home">
         <div class="div1 d-lg-flex flex-lg-row align-items-lg-center justify-content-lg-around ">
             <div class="right-area">
                 <h1>Enjoy Your Healthy Delicious Food</h1>
@@ -153,7 +215,7 @@
     <!-- todo section 1 start -->
     <section class="section1 py-5">
         <div class="text-container text-center">
-            <p class="specialP">ABOUT US</p>
+            <span class="header-1">ABOUT US</span>
             <h1>Learn More <span class="text-danger">About Us</span></h1>
         </div>
 
@@ -263,7 +325,7 @@
 
     <section class="section3">
         <div class="text-container text-center py-4">
-            <p class="specialP">OUR MENU</p>
+            <span class="header-1">OUR MENU</span>
             <h1>Check Out <span class="text-danger">Yummy Meny</span></h1>
         </div>
 
@@ -279,7 +341,7 @@
             <div class="breakfast pb-5">
                 <div class="px-5">
                     <div class="text-center py-5">
-                        <p class="specialP mb-0">MENU</p>
+                        <span class="header-1">MENU</span>
                         <h2><span class="text-danger">Breakfast</span></h2>
                     </div>
                     <div class="content">
@@ -618,7 +680,9 @@
     <!-- ! section 4 end -->
 
     <!-- ? section 5 start -->
-    <section class="section5 bg-white"></section>
+    <section class="section5 bg-white">
+
+    </section>
     <!-- ? section 5 end -->
 
     <!-- ^ sedtion 6 start -->
