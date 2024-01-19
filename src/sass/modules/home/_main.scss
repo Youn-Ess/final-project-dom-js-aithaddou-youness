@@ -18,6 +18,33 @@
     }
 }
 
+.uupp {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 10;
+
+
+    a {
+        width: 60px;
+        height: 60px;
+        font-size: 30px;
+        color: white;
+        background-color: rgba(180, 0, 0, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+        &:hover{
+            
+        }
+    }
+
+
+}
+
 // & hearo section start
 .hearo-section {
     margin-top: 6vw;
@@ -162,6 +189,30 @@
                     }
 
                 }
+            }
+        }
+    }
+    .video2{
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.411);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        z-index: 10;
+        i{
+            position: fixed;
+            right: 5rem;
+            top: 5rem;
+            font-size: 4rem;
+            color: rgb(77, 77, 77);
+            &:hover{
+                color: black;
             }
         }
     }

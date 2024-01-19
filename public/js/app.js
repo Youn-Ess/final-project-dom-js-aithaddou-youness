@@ -52,14 +52,30 @@ signUpLogInButtons.forEach(Button => {
 
 let video1button = document.querySelector(`.button2`)
 let video1sectino = document.querySelector(`.video1`)
+let srcVideo1 = document.querySelector(`.video1 iframe`)
 
 video1button.addEventListener(`click`, () => {
+    srcVideo1.src = "https://www.youtube.com/embed/GQAvce3MA44?si=hNFOwxHJ3jZn0OXd"
     video1sectino.classList.remove(`d-none`)
     let xButton = document.querySelector(`.xmark1`)
     xButton.addEventListener(`click`, () => {
         video1sectino.classList.add(`d-none`)
-        let srcVideo1 = document.querySelector(`.video1 iframe`)
         srcVideo1.src = `chihaja`
+    })
+})
+
+
+let video2button = document.querySelector(`.buttonVideo2`)
+let video2sectino = document.querySelector(`.video2`)
+let srcVideo2 = document.querySelector(`.video2 iframe`)
+
+video2button.addEventListener(`click`, () => {
+    srcVideo2.src = "https://www.youtube.com/embed/3hPoEmlBQdY?si=n9osShv8KtfB891G"
+    video2sectino.classList.remove(`d-none`)
+    let xButton = document.querySelector(`.xmark2`)
+    xButton.addEventListener(`click`, () => {
+        video2sectino.classList.add(`d-none`)
+        srcVideo2.src = `chihaja`
     })
 })
 
